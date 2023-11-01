@@ -1,0 +1,11 @@
+Adding data:
+- create a folder under ./data/video
+- add your movie to that folder and also add a folder called img
+- add the faces imgs of the people appearing for that video into the img folder.
+
+Adding models:
+- download the emotion recognition model from: https://drive.google.com/file/d/1Oy_9YmpkSKX1Q8jkOhJbz3Mc7qjyISzU/view
+- place it in ./feature_extraction/super_feature_extraction_utils/emotion_recognition
+
+- download the pose detection model from: https://tfhub.dev/google/movenet/multipose/lightning/1
+- unzip the file and place the contents into ./feature_extraction/super_feature_extraction_utils/pose_detection
